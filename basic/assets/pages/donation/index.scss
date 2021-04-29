@@ -1,0 +1,54 @@
+.donate-page{
+  &__images{
+
+  }
+  &__images-item{
+    position: relative;
+    img{
+      width: 100%;
+    }
+    h4{
+      font-size: 22px;
+      line-height: 28px;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+      color: $wh;
+    }
+    p{
+      color: $wh;
+    }
+  }
+  &__images-item-bottom{
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(212,12,01,.8);
+  }
+  &__form-block{
+    h2{
+      font-size: 28px;
+      line-height: 34px;
+      font-family: Lato;
+      font-weight: bolder;
+      text-transform: capitalize;
+      margin: 40px 0px;
+    }
+    .common-input-text,
+    .common-input-checkbox{
+      margin-bottom: 50px;
+      input{
+        margin-top: 10px;
+      }
+    }
+    .common-btn-lg{
+      margin-right: 15px;
+    }
+    .common-input-radio{
+      margin-top: 40px;
+      margin-right: 25px;
+    }
+  }
+}

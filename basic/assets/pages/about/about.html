@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--    <link href="http://fonts.cdnfonts.com/css/akrobat" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="about-page common-wrapper">
+  <div class="common-header">
+    <div class="common-header__desktop">
+      <div class="common-container">
+        <div class="gr-row">
+          <div class="gr-cl-3 align-mdl">
+            <div class="common-header__desktop-title">
+              <a href="/">
+                <img class="wh-100 common-header__logo" src="../../images/icons/logo.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="gr-cl-6 align-mdl">
+            <div class="common-header__desktop-menu">
+              <ul>
+                <li>
+                  <a class="common-header__TL-3" href="/timeline.html">Explore</a>
+                </li>
+                <li>
+                  <a class="common-header__TL-3" href="/gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a class="common-header__TL-3" href="/about.html">About us</a>
+                </li>
+                <li>
+                  <a class="common-header__TL-3" href="/">Add a survivor</a>
+                </li>
+                <li>
+                  <a class="common-header__TL-3" href="/">Donate</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="gr-cl-3 align-mdl gr-cl-last">
+            <div class="common-header__desktop-search component--search">
+              <form class="gr-row">
+                <div class="common-header__desktop-search-input component--search__input-wrap">
+                  <input placeholder="Search by survivor or camp" type="text" name="search">
+                </div>
+                <button class="common-header__desktop-search-btn">
+                  <img src="../../images/icons/9.png" alt="">
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="common-header__mobile">
+      <div class="common-container gr-row">
+        <div class="gr-cl-2 align-mdl">
+          <button class="common-header__mobile-btn btn--menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div class="gr-cl-8 align-mdl">
+          <img class="wh-100 common-header__logo-m" src="../../images/icons/logo-m.png" alt="">
+        </div>
+        <div class="gr-cl-2 align-mdl gr-cl-last t-align-rt">
+          <button class="common-header__mobile-search btn--search">
+            <img class="search" src="../../images/icons/9.png" alt="">
+            <img class="close" src="../../images/icons/mn-close.png" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="gr-cl-12 common-header__mobile-search-collapse">
+        <div class="common-header__desktop-search component--search">
+          <form class="gr-row">
+            <div class="common-header__desktop-search-input component--search__input-wrap">
+              <input placeholder="Search by survivor or camp" type="text" name="search">
+            </div>
+            <button class="common-header__desktop-search-btn">
+              <img src="../../images/icons/9.png" alt="">
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="gr-cl-12 common-header__mobile-menu-collapse">
+        <div class="common-header__desktop-menu">
+          <ul>
+            <li>
+              <a class="common-header__TL-3" href="/">Explore</a>
+            </li>
+            <li>
+              <a class="common-header__TL-3" href="/">Gallery</a>
+            </li>
+            <li>
+              <a class="common-header__TL-3" href="/">About us</a>
+            </li>
+            <li>
+              <a class="common-header__TL-3" href="/">Add a survivor</a>
+            </li>
+            <li>
+              <a class="common-header__TL-3" href="/">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-page__block">
+    <div class="common-container common-block">
+      <div class="gr-row">
+        <div class="gr-cl-3 align-top about-page__nav-wrapper">
+          <div class="about-page__nav">
+            <ul>
+              <li>
+                <a class="active" href="#ach-0">Project history</a>
+              </li>
+              <li>
+                <a href="#ach-1">How to use Portraits of Honor</a>
+              </li>
+              <li>
+                <a href="#ach-2">Acknowlegments</a>
+              </li>
+              <li>
+                <a href="#ach-3">The future</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="gr-cl-9 gr-cl-last align-top">
+          <h1 class="common-h1">About portraits of honor</h1>
+          <div class="about-pag__content">
+            <h4 class="block-title first">Project history</h4>
+            <p class="block-text common-p-1" id="ach-0">Portraits of Honor was developed in 1999 under the direction of Dr.
+              Charles Silow, the son of Holocaust Survivors. Its purpose is to document the lives of Holocaust Survivors who have lived in
+              Michigan for education and for posterity. Portraits of Honor is a learning tool about the lives of Survivors through their photographs,
+              biographies, and historical references. As you look at the portraits of the Survivors,
+              you will see faces of pain and suffering as well as faces reflecting beauty, resilience, and the triumph of the human spirit. </p>
+            <div class="block-image">
+              <img src="../../images/about/1a.jpg" alt="">
+            </div>
+            <p class="block-text common-p-1">When, one by one, the national armies of European countries were defeated in World War II,
+              the Jewish populations within these countries found themselves in helpless and powerless situations. They were, by and large, civilians with little military training.
+              They had almost no access to weapons and their national armies had been overrun by Nazi Germany. </p>
+            <p class="block-text common-p-1">Portraits of Honor cherishes and honors each and every Michigan Survivor. For so long,
+              the Holocaust Survivors of our community have not been appreciated for what they endured and for
+              all that they have achieved in their lives after the war.  </p>
+            <p class="block-text common-p-1">After the Holocaust, these Survivors came to America and made their way to Michigan.
+              They learned a new language, a new culture, and built new lives. Most married, worked hard, and raised families.
+              The memories of the overwhelming losses and horrors they experienced have continued to haunt them and yet they have been able to go on with life.
+              Their children, grandchildren, and even great- grandchildren are here and contribute to society.
+              In spite of the Nazi attempted genocide, the Jewish people have continued and thrive.
+              To quote from the "Song of the Partisans," the unofficial anthem of the Survivors, "Mir zeinen du!" "We are here!" </p>
+            <p class="block-text common-p-1">Portraits of Honor cherishes and honors each and every Michigan Survivor. For so long,
+              the Holocaust Survivors of our community have not been appreciated for what they endured and for
+              all that they have achieved in their lives after the war.  </p>
+            <div class="block-image">
+              <img src="../../images/about/1a.jpg" alt="">
+            </div>
+            <h4 class="block-title">How to use Portraits of Honor</h4>
+            <p class="block-text common-p-1" id="ach-1">To access Portraits of Honor, please, type in the Survivor's Name on the SEARCH BY SURVIVOR category.
+              Then click TOUCH TO SELECT within the "magnifying glass" to the right of the survivor's name.
+              The survivor's photograph will then appear on their Homepage. </p>
+            <p class="block-text common-p-1">To learn more details about the life history of the survivor, click on the READ MORE INFO button to the right. </p>
+            <p class="block-text common-p-1">Also on each Survivor's Homepage, there is an individualized Map of the Survivor's journey from their home to the particular sites of their imprisonment.
+              Click on SURVIVOR'S MAP to access this information.
+              The Map was created for Portraits of Honor by the prominent historian, Sir Martin Gilbert. </p>
+            <p class="block-text common-p-1">Portraits of Honor: Our Michigan Holocaust Survivors is a permanent interactive exhibit at the Holocaust
+              Memorial Center Zekelman Family Campus in Farmington Hills, Michigan.
+              We encourage you to visit Portraits of Honor at the museum where photographs, biographies, historical references,
+              and maps are vividly displayed on a 55" plasma screen. </p>
+            <p class="block-text common-p-1">Also at the museum, Portraits of Honor has a unique electronic interactive Passport card reader system.
+              Visitors to the museum receive a paper Passport which includes the name and photograph of a Survivor with a brief summary of their
+              Holocaust experience and their message to the future.
+              The Passport also includes a QR code which can be scanned at the exhibit where the full biographies and Survivor's details will appear. </p>
+            <div class="block-image">
+              <img src="../../images/about/2a.jpg" alt="">
+            </div>
+            <h4 class="block-title">Acknowlegments</h4>
+            <p class="block-text common-p-1" id="ach-2">This project could not have taken place without the dedication of numerous individuals. The goal of honoring and remembering Michigan Holocaust Survivors is being realized because of their efforts.
+              Initially, Sinai Hospital of Detroit and the Jewish Fund of the Jewish Federation of Metropolitan Detroit helped support Portraits of Honor as an exhibit of photographs and biographies which toured schools and institutions.
+              In conjunction with the traveling exhibit, Holocaust Survivors spoke to groups at the schools about their experiences. </p>
+            <p class="block-text common-p-1">As part of the Program for Holocaust Survivors and Families, a service of Jewish Senior Life of Metropolitan Detroit,
+              this project has developed into a permanent, electronic, interactive exhibit housed at the Holocaust Memorial Center Zekelman Family Campus, and
+              its contents are accessible online at www.portraitsofhonor.org.Shari Ferber Kaufman, Ron Ferber, Annette Ferber, Leo Eisenberg and Harry Eisenberg
+              embraced the importance and significance of the project and saw the impact and vision of Portraits of Honor: Our Michigan Holocaust Survivors.
+              Through their generosity and commitment to this project, Portraits of Honor has become a reality.  </p>
+            <p class="block-text common-p-1">Portraits of Honor is dedicated to their Holocaust survivor parents: Miriam and Fred Ferber, and Belle and Isidor Eisenberg, of blessed memory.
+              These children's devotion and respect for their families and community serves as a blessing.  </p>
+            <p class="block-text common-p-1">We give special acknowledgement to Dr. Charles Domstein, past Chairperson of the Advisory Committee of the
+              Program for Holocaust Survivors and Families, for his unending tenacity to this project, to Molly Chernow, recent Chairperson, and to Deborah
+              Rosenthal, Chairperson, who continue their commitment to Portraits of Honor .
+              The support and continuing loyalty of the entire Advisory Committee of the Program for Holocaust Survivors and Families enabled this project to come to fruition.</p>
+            <p class="block-text common-p-1">The support of the Shaarit Haplaytah, Abraham Weberman, President and Ruth Lehman, Vice-President; Holocaust Memorial
+              Center Zekelman Family Campus, founder Rabbi Charles Rosenzveig, of blessed memory and Stephen Goldman, Executive Director; United Jewish Social Organization,
+              Michael Weiss, President; C.H.A.I.M.-Children of Holocaust-Survivors Association In Michigan,
+              Dr. Charles Silow, founder and President, and the Hidden Children and Child Survivors of Michigan, Dr. Rene Lichtman, President, has been invaluable.</p>
+            <p class="block-text common-p-1">C.H.A.I.M. has been intimately involved with Portraits of Honor since the project's inception. It's members have lent their support, guidance,
+              enthusiasm. C.H.A.I.M. celebrated its 30 th anniversary with the dedication of Portraits of Honor .</p>
+            <p class="block-text common-p-1">Many of the original black and white analog Portraits of Honor photographs are on permanent display in the classrooms at the Holocaust Memorial Center. </p>
+            <p class="block-text common-p-1">Special thanks to Susan Rabinovitz, whose tireless efforts, perseverance, and inspiration assisted in making this project possible. Alice Ehrinpreis, who worked diligently to assist with the historical keyword references found with every survivor history.
+              Caryn Aharoni Finkelman, who worked assiduously and creatively in her dedication to the project.</p>
+            <p class="block-text common-p-1">Darius Gueramy, Principal of Red Road Media, Midland, Michigan designed and created this interactive electronic exhibit,
+              Portraits of Honor: Our Michigan Holocaust Survivors . We cannot thank Darius enough for his immense creativity, unending patience, and continued professionalism
+              in producing this Exhibit.
+              David Goodman, Project Manager worked diligently offering his keen expertise and guidance. </p>
+            <p class="block-text common-p-1">We sincerely thank Dr. Sidney Bolkosky, of blessed memory, of the University of Michigan-Dearborn, Voice/Vision Holocaust
+              Survivor Oral History Archive
+              for his ongoing support, historical expertise, and invaluable guidance.  </p>
+            <p class="block-text common-p-1">We acknowledge the use of the historical references from the United States Holocaust Memorial
+              Museum and Yad Vashem, the Holocaust Martyrs' and Heroes' Remembrance Authority of Israel used in the Keywords .
+              Except where noted, all of the Keywords are from the United States Holocaust Memorial Museum and Yad Vashem. </p>
+            <p class="block-text common-p-1">We are grateful to Carol Rosenberg, Director, Jewish Senior Life Foundation, who enthusiastically
+              supported Portraits of Honor to bring this project to fruition.</p>
+            <p class="block-text common-p-1">We thank Rochelle Upfal, Chief Executive Officer, Jewish Senior Life of Metropolitan
+              Detroit for her continued support of the Project.</p>
+            <p class="block-text common-p-1">
+              We thank Stephen Goldman, Executive Director, Holocaust Memorial Center Zekelman Family Campus, and Professor Guy Stern for their ongoing collaboration on
+              Portraits of Honor.
+              The map of the birthplaces and the journeys of our Michigan Survivors during the Holocaust was created by Sir Martin Gilbert of London, England. Sir Martin,
+              the world renowned Holocaust historian, graciously donated his time and effort to producing this map for Portraits of Honor .
+              We cannot thank him enough for all of his dedication to this project.
+            </p>
+            <p class="block-text common-p-1">
+              We thank Stephen Goldman, Executive Director, Holocaust Memorial Center Zekelman Family Campus, and Professor Guy Stern for their ongoing collaboration on
+              Portraits of Honor.
+              The map of the birthplaces and the journeys of our Michigan Survivors during the Holocaust was created by Sir Martin Gilbert of London, England. Sir Martin,
+              the world renowned Holocaust historian, graciously donated his time and effort to producing this map for Portraits of Honor .
+              We cannot thank him enough for all of his dedication to this project.
+            </p>
+            <p class="block-text common-p-1">
+              We thank Sylvia Nelson, Director, Janice Charach Epstein Gallery who initially displayed many of the original photographs and biographies of Portraits of Honor in November-December, 2001, at the gallery housed at the Jewish Community Center in West Bloomfield, Michigan.
+              We thank Miriam Brysk, a child survivor, who was invaluable in helping us obtain photographs of child survivors in their early years.
+            </p>
+            <p class="block-text common-p-1">
+              We thank all the Survivors who came to our Café Europa program at the Jewish Community Center in Oak Park, Michigan on February 28, 2011, to sing and record the "Song of the Partisans" for this project. We thank Michelle Chekan,
+              Community Outreach Coordinator of Jewish Senior Life who accompanied in the recording.
+            </p>
+            <div class="block-image">
+              <img src="../../images/about/3a.jpg" alt="">
+            </div>
+            <h4 class="block-title">The future</h4>
+            <p class="block-text common-p-1" id="ach-3">
+              There were 401 Holocaust Survivors featured in the initial opening of Portraits of Honor:
+              Our Michigan Holocaust Survivors in 2011. Portraits of Honor has evolved and grown since its origin in 1999.
+            </p>
+            <p class="block-text common-p-1">
+              In 2014, an additional 147 Survivors were added to Portraits of Honor totaling 548 Holocaust Survivors.
+              Our goal is to continue to add more Survivor photographs and biographies to the Project.
+            </p>
+            <p class="block-text common-p-1">
+              A Holocaust Survivor is defined by AMCHA , the National Israeli Center for Psychosocial Support of Holocaust Survivors and the Second Generation ,
+              as any Jew who lived under
+              Nazi occupation during the second World War and who was thus threatened by the policy of the "final solution" but stayed alive.
+            </p>
+            <p class="block-text common-p-1">
+              According to this definition, persons with widely different Holocaust experiences are considered to be Holocaust Survivors.
+              For example, those who were confined to a ghetto, who were in forced labor camps, who were imprisoned in concentration camps,
+              who were in hiding or living under false identities, refugees who left their families behind, those who fought with the partisans,
+              or those who were sent away in the "Kindertransport," those who were children, etc. All of these people were traumatized in one way or another,
+              either by constant threat of being killed,
+              having suffered significant losses, or having lived under the shadow of Holocaust persecution.
+            </p>
+            <p class="block-text common-p-1">
+              We encourage people to learn more about our Michigan Survivors through extensive oral history interviews available at the John J.
+              Mames Oral History Collection of the Holocaust Memorial Center Zekelman Family Campus, the University of Michigan-Dearborn Voice/Vision
+              Holocaust Survivor Oral History Archive ,
+              and the USC Shoah Foundation Institute Visual History Collection .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="common-footer">
+    <div class="gr-row common-container common-block">
+      <div class="gr-cl-2 align-top">
+        <ul>
+          <li>
+            <a class="common-p-1" href="/">Explore</a>
+          </li>
+          <li>
+            <a class="common-p-1" href="/">Gallery</a>
+          </li>
+          <li>
+            <a class="common-p-1" href="/">About us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="gr-cl-2 align-top">
+        <ul>
+          <li>
+            <a class="common-p-1" href="/">Camps experiences</a>
+          </li>
+          <li>
+            <a class="common-p-1" href="/">Add a survivor</a>
+          </li>
+          <li>
+            <a class="common-p-1" href="/">Donate</a>
+          </li>
+        </ul>
+      </div>
+      <div class="gr-cl-4 align-top">
+        <ul>
+          <li>
+            <img src="../../images/icons/11.png" alt="">
+            <p class="common-p-1">(248) 661-2999, (248) 553-2400</p>
+          </li>
+          <li>
+            <img src="../../images/icons/4.png" alt="">
+            <p class="common-p-1">csilow@jslmi.org</p>
+          </li>
+          <li>
+            <img src="../../images/icons/10.png" alt="">
+            <p class="common-p-1">Holocaust Memorial Center Zekelman Family
+              </br> Campus, 27th day of Nisan, 5771, Farmington
+              </br> Hills, Michigan, 48334
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="gr-cl-4 align-top">
+        <div class="component--search">
+          <form class="gr-row">
+            <div class="common-header__desktop-search-input component--search__input-wrap">
+              <input placeholder="Please enter your Email" type="text" name="send_male">
+            </div>
+            <button class="common-header__desktop-search-btn">
+              Submit
+            </button>
+          </form>
+        </div>
+        <p class="common-p-1">Subscribe to our newsletter</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

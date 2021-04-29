@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--    <link href="http://fonts.cdnfonts.com/css/akrobat" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="gallery-page common-wrapper">
+    <div class="common-header">
+        <div class="common-header__desktop">
+            <div class="common-container">
+                <div class="gr-row">
+                    <div class="gr-cl-3 align-mdl">
+                        <div class="common-header__desktop-title">
+                            <a href="/">
+                                <img class="wh-100 common-header__logo" src="../../images/icons/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gr-cl-6 align-mdl">
+                        <div class="common-header__desktop-menu">
+                            <ul>
+                                <li>
+                                    <a class="common-header__TL-3" href="/timeline.html">Explore</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/about.html">About us</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/">Add a survivor</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gr-cl-3 align-mdl gr-cl-last">
+                        <div class="common-header__desktop-search component--search">
+                            <form class="gr-row">
+                                <div class="common-header__desktop-search-input component--search__input-wrap">
+                                    <input placeholder="Search by survivor or camp" type="text" name="search">
+                                </div>
+                                <button class="common-header__desktop-search-btn">
+                                    <img src="../../images/icons/9.png" alt="">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common-header__mobile">
+            <div class="common-container gr-row">
+                <div class="gr-cl-2 align-mdl">
+                    <button class="common-header__mobile-btn btn--menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="gr-cl-8 align-mdl">
+                    <img class="wh-100 common-header__logo-m" src="../../images/icons/logo-m.png" alt="">
+                </div>
+                <div class="gr-cl-2 align-mdl gr-cl-last t-align-rt">
+                    <button class="common-header__mobile-search btn--search">
+                        <img class="search" src="../../images/icons/9.png" alt="">
+                        <img class="close" src="../../images/icons/mn-close.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="gr-cl-12 common-header__mobile-search-collapse">
+                <div class="common-header__desktop-search component--search">
+                    <form class="gr-row">
+                        <div class="common-header__desktop-search-input component--search__input-wrap">
+                            <input placeholder="Search by survivor or camp" type="text" name="search">
+                        </div>
+                        <button class="common-header__desktop-search-btn">
+                            <img src="../../images/icons/9.png" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="gr-cl-12 common-header__mobile-menu-collapse">
+                <div class="common-header__desktop-menu">
+                    <ul>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Explore</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Gallery</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">About us</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Add a survivor</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-page__block">
+        <div class="common-container">
+            <h1 class="common-h1">Gallery</h1>
+            <p class="common-p-1">You can filter the survivors by <span>their experiences</span></p>
+            <div class="gallery-page__filter">
+                <div class="gallery-page__filter-top gr-row">
+                    <div class="gallery-page__filter-top-item component-block-image-4 gr-cl-3">
+                        <a href="">
+                            <img class="wh-100" src="../../images/gallery/g1.jpg" alt="">
+                            <span class="Akrobat-600">Camps</span>
+                        </a>
+                    </div>
+                    <div class="gallery-page__filter-top-item component-block-image-4 gr-cl-3">
+                        <a href="">
+                            <img class="wh-100" src="../../images/gallery/g2.jpg" alt="">
+                            <span class="Akrobat-600">Ghettos</span>
+                        </a>
+                    </div>
+                    <div class="gallery-page__filter-top-item component-block-image-4 gr-cl-3">
+                        <a href="">
+                            <img class="wh-100" src="../../images/gallery/g3.jpg" alt="">
+                            <span class="Akrobat-600">place of birth</span>
+                        </a>
+                    </div>
+                    <div class="gallery-page__filter-top-item component-block-image-4 gr-cl-3 gr-cl-last">
+                        <a href="">
+                            <img class="wh-100" src="../../images/gallery/g4.jpg" alt="">
+                            <span class="Akrobat-600">year of birth</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-page__filter-bottom">
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Auschwitz-Brikenau
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Buchenwald
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Crematorium
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Death camps
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Maly Trostenets
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Labor camps
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Buchenwald
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Crematorium
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Death camps
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Labor camps
+                        </button>
+                    </a>
+                    <a class="gallery-page__filter-items" href="">
+                        <button class="common-btn-sm bl">
+                            Maly Trostenets
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <a class="link" href="">
+                <span>Show All</span>
+                <img src="../../images/timeline/4t.png" alt="">
+            </a>
+            <div class="gr-cl-12">
+                <button class="common-btn-lg red">Apply filter</button>
+                <button class="common-btn-lg bl">Hide filter</button>
+            </div>
+            <div class="gallery-page__results common-block">
+                <div class="gallery-page__results-block">
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f1.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f2.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f3.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f4.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f1.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f2.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f3.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-block-image-2">
+                        <img src="../../images/gallery/faces/f4.jpg" alt="">
+                        <div class="component-block-image-2__bottom gr-row">
+                            <p class="gr-cl-9 align-mdl">Rene lihtmann</p>
+                            <div class="gr-cl-3 align-mdl gr-cl-last">
+                                <button class="common-btn-more">
+                                    <img src="../../images/icons/8.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-page__results-pagination common-pagination">
+                    <a class="pagination-left arr" href="">
+                    </a>
+                    <a class="pagination-item" href="">1</a>
+                    <a class="pagination-item" href="">2</a>
+                    <a class="pagination-item" href="">3</a>
+                    <a class="pagination-item" href="">4</a>
+                    <a class="pagination-item" href="">5</a>
+                    <a class="pagination-right arr" href="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component-block-image-5 common-container gr-row">
+        <div class="gr-cl-4 align-mdl">
+            <img class="wh-100" src="../../images/gallery/g6.jpg" alt="">
+        </div>
+        <div class="gr-cl-8 gr-cl-last align-mdl">
+            <p>“Never forget the past  </p>
+            <p>and the horrors of what happened.”</p>
+            <p class="autor">
+                <span>Helen Solarz Sadik</span>
+                <button class="common-btn-more">
+                    <img src="../../images/icons/8.png" alt="">
+                </button>
+            </p>
+        </div>
+    </div>
+    <div class="common-footer">
+        <div class="gr-row common-container common-block">
+            <div class="gr-cl-2 align-top">
+                <ul>
+                    <li>
+                        <a class="common-p-1" href="/">Explore</a>
+                    </li>
+                    <li>
+                        <a class="common-p-1" href="/">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="common-p-1" href="/">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gr-cl-2 align-top">
+                <ul>
+                    <li>
+                        <a class="common-p-1" href="/">Camps experiences</a>
+                    </li>
+                    <li>
+                        <a class="common-p-1" href="/">Add a survivor</a>
+                    </li>
+                    <li>
+                        <a class="common-p-1" href="/">Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gr-cl-4 align-top">
+                <ul>
+                    <li>
+                        <img src="../../images/icons/11.png" alt="">
+                        <p class="common-p-1">(248) 661-2999, (248) 553-2400</p>
+                    </li>
+                    <li>
+                        <img src="../../images/icons/4.png" alt="">
+                        <p class="common-p-1">csilow@jslmi.org</p>
+                    </li>
+                    <li>
+                        <img src="../../images/icons/10.png" alt="">
+                        <p class="common-p-1">Holocaust Memorial Center Zekelman Family
+                            </br> Campus, 27th day of Nisan, 5771, Farmington
+                            </br> Hills, Michigan, 48334
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="gr-cl-4 align-top">
+                <div class="component--search">
+                    <form class="gr-row">
+                        <div class="common-header__desktop-search-input component--search__input-wrap">
+                            <input placeholder="Please enter your Email" type="text" name="send_male">
+                        </div>
+                        <button class="common-header__desktop-search-btn">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+                <p class="common-p-1">Subscribe to our newsletter</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

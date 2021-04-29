@@ -1,0 +1,56 @@
+.about-page{
+  &__block{
+    margin-bottom: 30px;
+  }
+  .common-h1{
+    padding: 40px 0px;
+    color: $black;
+    text-align: center;
+  }
+  .block-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    font-family: Lato;
+    text-transform: capitalize;
+    //padding-top: 80px;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .block-title.first{
+    margin-top: 0;
+  }
+  .block-text{
+    margin-bottom: 30px;
+    span{
+      font-weight: bolder;
+    }
+  }
+  .block-image{
+    //margin-top: 40px;
+    margin-bottom: 40px;
+    img{
+      width: 100%;
+    }
+  }
+  &__nav-wrapper{
+    position: relative;
+  }
+  &__nav{
+    position: absolute;
+    padding: 20px;
+    ul{
+      li{
+        padding-bottom: 20px;
+        line-height: 22px;
+        a{
+          color: $black;
+        }
+        .active{
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}

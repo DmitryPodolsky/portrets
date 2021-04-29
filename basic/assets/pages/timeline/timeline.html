@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!--    <link href="http://fonts.cdnfonts.com/css/akrobat" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="timline-page common-wrapper">
+    <div class="common-header">
+        <div class="common-header__desktop">
+            <div class="common-container">
+                <div class="gr-row">
+                    <div class="gr-cl-3 align-mdl">
+                        <div class="common-header__desktop-title">
+                            <a href="/">
+                                <img class="wh-100 common-header__logo" src="../../images/icons/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gr-cl-6 align-mdl">
+                        <div class="common-header__desktop-menu">
+                            <ul>
+                                <li>
+                                    <a class="common-header__TL-3" href="/timeline.html">Explore</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/about.html">About us</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/">Add a survivor</a>
+                                </li>
+                                <li>
+                                    <a class="common-header__TL-3" href="/">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gr-cl-3 align-mdl gr-cl-last">
+                        <div class="common-header__desktop-search component--search">
+                            <form class="gr-row">
+                                <div class="common-header__desktop-search-input component--search__input-wrap">
+                                    <input placeholder="Search by survivor or camp" type="text" name="search">
+                                </div>
+                                <button class="common-header__desktop-search-btn">
+                                    <img src="../../images/icons/9.png" alt="">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common-header__mobile">
+            <div class="common-container gr-row">
+                <div class="gr-cl-2 align-mdl">
+                    <button class="common-header__mobile-btn btn--menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="gr-cl-8 align-mdl">
+                    <img class="wh-100 common-header__logo-m" src="../../images/icons/logo-m.png" alt="">
+                </div>
+                <div class="gr-cl-2 align-mdl gr-cl-last t-align-rt">
+                    <button class="common-header__mobile-search btn--search">
+                        <img class="search" src="../../images/icons/9.png" alt="">
+                        <img class="close" src="../../images/icons/mn-close.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="gr-cl-12 common-header__mobile-search-collapse">
+                <div class="common-header__desktop-search component--search">
+                    <form class="gr-row">
+                        <div class="common-header__desktop-search-input component--search__input-wrap">
+                            <input placeholder="Search by survivor or camp" type="text" name="search">
+                        </div>
+                        <button class="common-header__desktop-search-btn">
+                            <img src="../../images/icons/9.png" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="gr-cl-12 common-header__mobile-menu-collapse">
+                <div class="common-header__desktop-menu">
+                    <ul>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Explore</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Gallery</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">About us</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Add a survivor</a>
+                        </li>
+                        <li>
+                            <a class="common-header__TL-3" href="/">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timline-block">
+        <div class="timline-block__wrapper">
+            <div class="common-container">
+                <div class="timline-block__top gr-row">
+                    <div class="gr-cl-6 align-mdl">
+                        <h1 class="common-h1">The history of holocaust</h1>
+                    </div>
+                    <div class="gr-cl-6 align-mdl gr-cl-last">
+                        <p class="common-p-1">A Holocaust Survivor is defined by AMCHA , the National Israeli Center for Psychosocial Support of Holocaust Survivors and the Second Generation,
+                            as any Jew who lived under Nazi occupation during the second World War and who was thus threatened by the policy of the "final solution" but stayed alive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gr-cl-12 timline-block__bottom">
+            <div class="timline-page__timline-block">
+                <div class="swiper-container swiper-container-3 timeline-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide timeline-slide left">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-6">
+                                    <div class="date-block">
+                                        <p class="Akrobat-600">
+                                            Beginning of War
+                                            <span class="Akrobat-700">1939
+                                                 <i class="line"></i>
+                                            </span>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                    <img src="../../images/timeline/1t.jpg" alt="">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                    <p>
+                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide timeline-slide right">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                    <img src="../../images/timeline/1t.jpg" alt="">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                    <p>
+                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-3 align-top">
+                                    <div class="date-block">
+                                        <p class="Akrobat-600">
+                                            <span class="Akrobat-700">
+                                                <i class="line bottom"></i>
+                                                1940
+                                            </span>
+                                            Beginning of War
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="gr-cl-9 align-mdl gr-cl-last">
+                                    <div class="images-block">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <a class="link" href="">
+                                            <span>Show All</span>
+                                            <img src="../../images/timeline/4t.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide timeline-slide left">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-3 align-top">
+                                    <div class="date-block">
+                                        <p class="Akrobat-600">
+                                            <span class="Akrobat-700">
+                                                1941
+                                                <i class="line"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="gr-cl-9 align-mdl">
+                                    <div class="images-block">
+                                        <a class="link" href="">
+                                            <span>Show All</span>
+                                            <img src="../../images/timeline/4t.png" alt="">
+                                        </a>
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                    <img src="../../images/timeline/1t.jpg" alt="">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                    <p>
+                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.
+                                    </p>
+                                    <a class="link" href="">
+                                        <span>Show All</span>
+                                        <img src="../../images/timeline/4t.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide timeline-slide right">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                    <img src="../../images/timeline/1t.jpg" alt="">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                    <p>
+                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.
+                                    </p>
+                                    <a class="link" href="">
+                                        <span>Show All</span>
+                                        <img src="../../images/timeline/4t.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-3 align-top">
+                                    <div class="date-block">
+                                        <p class="Akrobat-600">
+                                            <span class="Akrobat-700">
+                                                <i class="line bottom"></i>
+                                                1943
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="gr-cl-9 align-mdl gr-cl-last">
+                                    <div class="images-block">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <a class="link" href="">
+                                            <span>Show All</span>
+                                            <img src="../../images/timeline/4t.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide timeline-slide left">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-3 align-top">
+                                    <div class="date-block">
+                                        <p class="Akrobat-600">
+                                            <span class="Akrobat-700">
+                                                1944
+                                                <i class="line"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="gr-cl-9 align-mdl">
+                                    <div class="images-block">
+                                        <a class="link" href="">
+                                            <span>Show All</span>
+                                            <img src="../../images/timeline/4t.png" alt="">
+                                        </a>
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                    <img src="../../images/timeline/1t.jpg" alt="">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                    <p>
+                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.
+                                    </p>
+                                    <a class="link" href="">
+                                        <span>Show All</span>
+                                        <img src="../../images/timeline/4t.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide timeline-slide right">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                    <img src="../../images/timeline/1t.jpg" alt="">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                    <p>
+                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.
+                                    </p>
+                                    <a class="link" href="">
+                                        <span>Show All</span>
+                                        <img src="../../images/timeline/4t.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-3 align-top">
+                                    <div class="date-block">
+                                        <p class="Akrobat-600">
+                                            <span class="Akrobat-700">
+                                                <i class="line bottom"></i>
+                                                1945
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="gr-cl-9 align-mdl gr-cl-last">
+                                    <div class="images-block">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <img src="../../images/timeline/2t.jpg" alt="">
+                                        <a class="link" href="">
+                                            <span>Show All</span>
+                                            <img src="../../images/timeline/4t.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<!--                        <div class="swiper-slide timeline-slide left">-->
+<!--                            <div class="timeline-slider__top gr-row">-->
+<!--                                <div class="gr-cl-3 align-top">-->
+<!--                                    <div class="date-block">-->
+<!--                                        <p class="Akrobat-600">-->
+<!--                                            <span class="Akrobat-700">-->
+<!--                                                1941-->
+<!--                                                <i class="line"></i>-->
+<!--                                            </span>-->
+<!--                                        </p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="gr-cl-9 align-mdl">-->
+<!--                                    <div class="images-block">-->
+<!--                                        <a class="link" href="">-->
+<!--                                            <span>Show All</span>-->
+<!--                                            <img src="../../images/timeline/4t.png" alt="">-->
+<!--                                        </a>-->
+<!--                                        <img src="../../images/timeline/2t.jpg" alt="">-->
+<!--                                        <img src="../../images/timeline/2t.jpg" alt="">-->
+<!--                                        <img src="../../images/timeline/2t.jpg" alt="">-->
+<!--                                        <img src="../../images/timeline/2t.jpg" alt="">-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="timeline-slider__bottom gr-row">-->
+<!--                                <div class="gr-cl-6 align-mdl">-->
+<!--                                    <img src="../../images/timeline/1t.jpg" alt="">-->
+<!--                                </div>-->
+<!--                                <div class="gr-cl-6 align-mdl gr-cl-last">-->
+<!--                                    <p>-->
+<!--                                        The German army occupied the western half of Poland. German police soon forced tens of thousands of Polish Jews from their homes and into ghettoes.-->
+<!--                                    </p>-->
+<!--                                    <a class="link" href="">-->
+<!--                                        <span>Show All</span>-->
+<!--                                        <img src="../../images/timeline/4t.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                        <div class="swiper-slide timeline-slide right last-empty">
+                            <div class="timeline-slider__top gr-row">
+                                <div class="gr-cl-6 align-mdl">
+                                </div>
+                                <div class="gr-cl-6 align-mdl gr-cl-last">
+                                </div>
+                            </div>
+                            <div class="timeline-slider__bottom gr-row">
+                                <div class="gr-cl-3 align-top">
+                                </div>
+                                <div class="gr-cl-9 align-mdl gr-cl-last">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar swiper-scrollbar-3"></div>
+<!--                    <div class="swiper-pagination-3"></div>-->
+                    <!--                            <div class="common-controls-swiper">-->
+                    <!--                                <div class="prev swiper-button-prev-1"></div>-->
+                    <!--                                <div class="pagination swiper-pagination-1"></div>-->
+                    <!--                                <div class="next swiper-button-next-1 gr-cl-last"></div>-->
+                    <!--                            </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    <div class="common-footer">-->
+<!--        <div class="gr-row common-container common-block">-->
+<!--            <div class="gr-cl-2 align-top">-->
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <a class="common-p-1" href="/">Explore</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a class="common-p-1" href="/">Gallery</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a class="common-p-1" href="/">About us</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="gr-cl-2 align-top">-->
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <a class="common-p-1" href="/">Camps experiences</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a class="common-p-1" href="/">Add a survivor</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a class="common-p-1" href="/">Donate</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="gr-cl-4 align-top">-->
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <img src="../../images/icons/11.png" alt="">-->
+<!--                        <p class="common-p-1">(248) 661-2999, (248) 553-2400</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <img src="../../images/icons/4.png" alt="">-->
+<!--                        <p class="common-p-1">csilow@jslmi.org</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <img src="../../images/icons/10.png" alt="">-->
+<!--                        <p class="common-p-1">Holocaust Memorial Center Zekelman Family-->
+<!--                            </br> Campus, 27th day of Nisan, 5771, Farmington-->
+<!--                            </br> Hills, Michigan, 48334-->
+<!--                        </p>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="gr-cl-4 align-top">-->
+<!--                <div class="component&#45;&#45;search">-->
+<!--                    <form class="gr-row">-->
+<!--                        <div class="common-header__desktop-search-input component&#45;&#45;search__input-wrap">-->
+<!--                            <input placeholder="Please enter your Email" type="text" name="send_male">-->
+<!--                        </div>-->
+<!--                        <button class="common-header__desktop-search-btn">-->
+<!--                            Submit-->
+<!--                        </button>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--                <p class="common-p-1">Subscribe to our newsletter</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+</div>
+</body>
+</html>
